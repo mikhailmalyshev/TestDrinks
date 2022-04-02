@@ -8,6 +8,7 @@
 import Alamofire
 import Foundation
 
+// MARK: Класс для взаимодействия с API
 
 class NetworkManager {
     

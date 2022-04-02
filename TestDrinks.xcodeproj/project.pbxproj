@@ -16,7 +16,7 @@
 		9784BE9527F6F7F80020BC35 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784BE9427F6F7F80020BC35 /* Drink.swift */; };
 		9784BE9727F6F88E0020BC35 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784BE9627F6F88E0020BC35 /* NetworkManager.swift */; };
 		9784BE9927F704E10020BC35 /* DrinkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784BE9827F704E10020BC35 /* DrinkCollectionViewCell.swift */; };
-		9784BE9D27F723080020BC35 /* UICollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784BE9C27F723080020BC35 /* UICollectionViewLeftAlignedLayout.swift */; };
+		9784BE9D27F723080020BC35 /* CollectionViewLeftAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784BE9C27F723080020BC35 /* CollectionViewLeftAlignedLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 		9784BE9427F6F7F80020BC35 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		9784BE9627F6F88E0020BC35 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9784BE9827F704E10020BC35 /* DrinkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCollectionViewCell.swift; sourceTree = "<group>"; };
-		9784BE9C27F723080020BC35 /* UICollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
+		9784BE9C27F723080020BC35 /* CollectionViewLeftAlignedLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLeftAlignedLayout.swift; sourceTree = "<group>"; };
 		DE1BC3170A6210904A3FB875 /* Pods_TestDrinks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestDrinks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,13 +80,13 @@
 				9724909227F6F53A00F84533 /* AppDelegate.swift */,
 				9724909427F6F53A00F84533 /* SceneDelegate.swift */,
 				9724909627F6F53A00F84533 /* DrinksViewController.swift */,
-				9784BE9C27F723080020BC35 /* UICollectionViewLeftAlignedLayout.swift */,
 				9784BE9427F6F7F80020BC35 /* Drink.swift */,
-				9724909B27F6F53C00F84533 /* Assets.xcassets */,
 				9784BE9827F704E10020BC35 /* DrinkCollectionViewCell.swift */,
 				9784BE9627F6F88E0020BC35 /* NetworkManager.swift */,
 				9724909D27F6F53C00F84533 /* LaunchScreen.storyboard */,
+				9784BE9C27F723080020BC35 /* CollectionViewLeftAlignedLayout.swift */,
 				972490A027F6F53C00F84533 /* Info.plist */,
+				9724909B27F6F53C00F84533 /* Assets.xcassets */,
 			);
 			path = TestDrinks;
 			sourceTree = "<group>";
@@ -220,7 +220,7 @@
 				9784BE9927F704E10020BC35 /* DrinkCollectionViewCell.swift in Sources */,
 				9784BE9527F6F7F80020BC35 /* Drink.swift in Sources */,
 				9724909527F6F53A00F84533 /* SceneDelegate.swift in Sources */,
-				9784BE9D27F723080020BC35 /* UICollectionViewLeftAlignedLayout.swift in Sources */,
+				9784BE9D27F723080020BC35 /* CollectionViewLeftAlignedLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
